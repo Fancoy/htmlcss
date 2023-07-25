@@ -1,0 +1,39 @@
+div{
+    height: 200px;
+    border: 4px solid rgb(0, 0, 0);
+}
+
+/*Position values: static, relative, absolute
+ static following normal flow of the page
+ absolute isn't following the flow of the page, lets you position, position is based off closest relative parent */
+.red{
+    background-color: red;
+    position: relative; /*Lets you position using top, left, right, bottom */
+    width: 100%;
+    top: 0;
+    left: 5px;
+    box-sizing: border-box;
+}
+
+.child{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.yellow{
+    background-color: yellow; /*Attached to the top, left, etc. with 0 margin*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    /*Sticky isn't fixed until reaching the threshold*/
+}
+
+a{
+    margin-top: 25px;
+}

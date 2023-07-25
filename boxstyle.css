@@ -1,0 +1,10 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 15px solid red;
+    padding: 15px 15px 15px 15px; /*Top, right, bottom, left */
+    margin: 15px; /* You can give one value if all the same */
+    box-sizing: border-box; /*Border + padding + content is equal to width and height(seperately) */
+
+}
