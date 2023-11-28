@@ -1,0 +1,35 @@
+HTML BASICS
+---------------------------------------------------------------------------------------------------------
+<button>Button name </button>
+
+<img src="path/path/path">
+
+<a href="link.com">bla bla </a>
+
+<br>		for new line
+
+<em> </em>		for emphasize
+
+<strong> </strong>		for thickness
+
+<script src="path/to.js"></script>		for including JavaScript
+
+<ul>
+<li> 1 </li>
+<li> 2 </li>
+<li> 3 </li>
+</ul>		for unordered list(ol for ordered)
+
+<div>
+</div>		for grouping elements
+
+<input type="text|password|etc." placeholder="Title">		for input elements
+
+<style>
+p{
+	font-family: Times New Roman;
+}
+</style>		for group styling
+
+
+
